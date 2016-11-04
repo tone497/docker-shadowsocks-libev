@@ -4,7 +4,7 @@
 
 先安裝好 Docker
 
-範例: Centos7
+# 範例: Centos7
 
 yum -y install https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm
 yum -y update
@@ -21,6 +21,7 @@ systemctl enable supervisord
 systemctl start docker
 service docker restart
 
+# ---------------
 git clone https://github.com/tone497/docker-shadowsocks-libev.git
 
 cd docker-shadowsocks-libev
