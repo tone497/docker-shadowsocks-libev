@@ -21,7 +21,7 @@ systemctl enable supervisord
 systemctl start docker
 service docker restart
 
-# ---------------
+#
 git clone https://github.com/tone497/docker-shadowsocks-libev.git
 
 cd docker-shadowsocks-libev
