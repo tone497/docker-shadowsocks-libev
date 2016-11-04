@@ -1,0 +1,9 @@
+shadowsocks:
+  image: shadowsocks-libev
+  ports:
+    - "9991:9991/tcp"
+    - "9991:9991/udp"
+  environment:
+    - METHOD=aes-256-cfb
+    - PASSWORD=12345678
+  restart: always
