@@ -1,10 +1,10 @@
 # docker-shadowsocks-libev
 
-快速建立 Docker Shadowsocks
+Fast build Docker Shadowsocks
 
-先安裝好 Docker
+Install Docker
 
-# 範例: Centos7
+# Sample: Centos7
 
 yum -y install https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm
 
@@ -31,8 +31,10 @@ git clone https://github.com/tone497/docker-shadowsocks-libev.git
 
 cd docker-shadowsocks-libev
 
-執行 run.sh
+./run.sh
 
-開放本機 9991 port
+open iptables 9453 port
 
-密碼 12345678
+aes-256-cfb
+
+password:9453

@@ -1,7 +1,3 @@
-#
-# Dockerfile for shadowsocks-libev
-#
-
 FROM alpine
 MAINTAINER tone497 <tone497@gmail.com>
 
@@ -9,7 +5,7 @@ ARG SS_VER=2.5.6
 ARG SS_URL=https://github.com/shadowsocks/shadowsocks-libev/archive/v$SS_VER.tar.gz
 
 ENV SERVER_ADDR 0.0.0.0
-ENV SERVER_PORT 9991
+ENV SERVER_PORT 9453
 ENV PASSWORD=
 ENV METHOD      aes-256-cfb
 ENV TIMEOUT     300
